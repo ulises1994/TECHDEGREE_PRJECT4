@@ -1,0 +1,70 @@
+/* ============================================= */
+/*              Base styles                      */
+/* ============================================= */
+* {
+  font-family: 'Lato', sans-serif;
+  color: #777;
+  box-sizing: border-box;
+}
+
+p {
+  line-height: 1.45em;
+}
+
+a {
+  text-decoration: none;
+}
+/* ============================================= */
+/*              Typography                       */
+/* ============================================= */
+.headline-primary {
+  color: #58e1c1;
+  margin-left: 10px;
+}
+
+.headline-secondary {
+  font-weight: 300;
+  color: #777;
+}
+
+.link {
+  color: $btn-default;
+  font-weight: 700;
+}
+
+.blockquote {
+  font-size: 1.5em;
+  font-weight: 300;
+  font-style: italic;
+  margin-left: 20px;
+  padding-left: 20px;
+  border-left: 8px solid #58e1c1;
+  border-radius: 5px;
+}
+
+.container {
+  padding: 0 10px;
+  @media #{$media-width} {
+    max-width: 1400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  padding: 1em 10px;
+  @media #{$media-width} {
+    flex-direction: row;
+  }
+}
+
+.centered {
+  @media #{$media-width} {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

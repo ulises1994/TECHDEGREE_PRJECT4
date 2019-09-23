@@ -1,0 +1,14 @@
+@mixin img-view ($disp,$mleft,$mright){
+
+  display: $disp;
+  margin-left: $mleft;
+  margin-right: $mright;
+}
+
+@mixin img-size ($mtop,$mwidth){
+
+  margin-top: $mtop;
+  max-width: $mwidth;
+
+
+}
